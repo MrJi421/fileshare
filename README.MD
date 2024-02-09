@@ -1,65 +1,69 @@
 # FileShare Project
 
-The File Share Project is a VB.NET application that allows users to share files with each other using a MySQL database for user credentials and file information.
-
-## Features
-
-- User authentication with MySQL database
-- File sharing functionality
-- Cache data storage
-- ...
+Welcome to the FileShare project! This interactive guide will help you set up and use the FileShare application on your local machine.
 
 ## Getting Started
 
-These instructions will help you set up and run the File Share Project on your local machine.
-
 ### Prerequisites
 
-- Visual Studio
-- MySQL Server
+Before you begin, ensure you have the following installed:
 
-### Installing
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/)
+- [MySQL Server](https://dev.mysql.com/downloads/)
 
-1. Clone the repository to your local machine:
+### Installation
 
-    ```bash
-    git clone https://github.com/your-username/file-share-project.git
-    ```
+1. **Clone the Repository:** 
+   - Open a terminal.
+   - Run the following command:
 
-2. Open the project in Visual Studio.
+     ```bash
+     git clone https://github.com/MrJi421/fileshare.git
+     ```
 
-3. Set up the MySQL database with the provided SQL scripts (found in the "Database" folder).
+2. **Open Project in Visual Studio:**
+   - Open Visual Studio.
+   - Navigate to the folder where you cloned the repository and open the solution file (`FileShare.sln`).
 
-4. Update the connection strings in the code to match your MySQL database credentials.
+3. **Set up MySQL Database:**
+   - Execute the provided SQL scripts (found in the "Database" folder) to set up the MySQL database.
+   - Update the connection strings in the code to match your MySQL database credentials.
 
-5. Build and run the application.
-
-## Configuration
-
-Update the following configuration files with your specific settings:
-
-- `app.config`: Update the MySQL connection string.
+4. **Build and Run:**
+   - Build the solution.
+   - Run the application.
 
 ## Usage
 
-Describe how to use your application. Provide examples and explanations of the key features.
+Once the application is running, you can:
+
+- Log in with your credentials.
+- Share files with other users.
+- View shared files and download them.
+
+## Configuration
+
+To configure the application:
+
+- Update the `app.config` file with your MySQL connection string.
 
 ## Contributing
 
-If you'd like to contribute to this project, please follow these guidelines:
+If you'd like to contribute to the project:
 
-1. Fork the project.
-2. Create your feature branch (`git checkout -b feature/your-feature`).
+1. Fork the repository.
+2. Create a new branch for your feature (`git checkout -b feature/your-feature`).
 3. Commit your changes (`git commit -m 'Add some feature'`).
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Open a pull request.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
-- Mention any contributors or libraries you used.
-- If you used any third-party resources or tutorials, give credit.
+- Special thanks to [contributors](CONTRIBUTORS.md) for their contributions.
+- Credits to any third-party libraries or resources used in the project.
 
+Enjoy using FileShare! If you encounter any issues or have suggestions, feel free to open an issue on GitHub.
