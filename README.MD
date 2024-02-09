@@ -59,7 +59,7 @@ If you'd like to contribute to the project:
 
 ## License
 
-This project is licensed under the Apache License. See the [LICENSE.md](LICENSE) file for details.
+This project is licensed under the Apache License. See the [LICENSE](LICENSE.md) file for details.
 
 ## Acknowledgments
 
